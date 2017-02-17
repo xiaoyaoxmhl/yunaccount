@@ -1,0 +1,95 @@
+/*
+首页第四板块的轮播*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a, img {
+  border: 0;
+}
+
+/* flexslider */
+.flexslider {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  //background: url(../images/images/loading.gif) 50% no-repeat;
+}
+
+.slides {
+  position: relative;
+  z-index: 1;
+}
+
+.slides li {
+  height: 500px;
+}
+
+.flex-control-nav {
+  position: absolute;
+  bottom: 10px;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+}
+
+.flex-control-nav li {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 0 5px;
+  *display: inline;
+  zoom: 1;
+}
+
+.flex-control-nav a {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  line-height: 40px;
+  overflow: hidden;
+  background: url(../images/dot.png) right 0 no-repeat;
+  cursor: pointer;
+  display: none;
+}
+
+.flex-control-nav .flex-active {
+  background-position: 0 0;
+}
+
+.flex-direction-nav {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  top: 45%;
+}
+
+.flex-direction-nav li a {
+  display: block;
+  width: 66px;
+  height: 66px;
+  overflow: hidden;
+  cursor: pointer;
+  position: absolute;
+  //top:26px;
+}
+
+
+.flex-direction-nav li a.flex-prev {
+  left: 0px;
+  background: url(../images/homepage/homePage_img27.png) center center no-repeat;
+}
+.flex-direction-nav li a.flex-prev:hover{
+  background: url(../images/homepage/homePage_img29.png) center center no-repeat;
+}
+
+.flex-direction-nav li a.flex-next {
+  right: 0px;
+  background: url(../images/homepage/homePage_img28.png) center center no-repeat;
+}
+
+.flex-direction-nav li a.flex-next:hover{
+  background: url(../images/homepage/homePage_img30.png) center center no-repeat;
+}

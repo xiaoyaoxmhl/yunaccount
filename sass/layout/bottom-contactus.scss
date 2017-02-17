@@ -1,0 +1,163 @@
+@import "color-font";
+
+/*
+底部栏样式*/
+.footerWarpBottom {
+  background-color: #4d545a;
+  height: 280px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+  margin-bottom: 0;
+  position: relative;
+  .footerwarp-width{
+    width: 1200px;
+    text-align: center;
+    position: relative;
+    left:50%;
+    margin-left: -600px;
+    > div {
+      background-color: #4d545a;
+      display: inline-block;
+      *display: inline;
+      zoom: 1;
+      float: left;
+      width: 300px;
+      vertical-align: top;
+      margin-top: 20px;
+      height: 200px;
+    }
+
+  }
+
+}
+.footerWarpBottom .footerwarp-width{
+  >div{
+    .footerTitle {
+      padding-bottom: 10px;
+      padding-left: 20px;
+      text-align: left;
+      font-size: 18px;
+      height: 22px;
+      line-height: 22px;
+      color: #fff;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .footerTitle:before {
+      content: "";
+      display: inline-block;
+      *display: inline;
+      zoom: 1;
+
+      background-image: url(../images/homepage/homePage_img19.png);
+      width: 20px;
+      height: 20px;
+      margin-left: -24px;
+      background-size: contain;
+      vertical-align: middle;
+      background-repeat: no-repeat;
+      margin-top: 0;
+    }
+    .footerDetail {
+      margin-top: 10px;
+      padding-left: 20px;
+      text-align: left;
+      font-size: 14px;
+      height: 16px;
+      line-height: 16px;
+      color: #fff;
+      margin-bottom: 0;
+
+    }
+  }
+  .footer2 .footerTitle:before {
+    background-image: url(../images/homepage/homePage_img20.png);
+
+  }
+  .footer3{
+    .contactUs {
+      font-size: 24px;
+      color: #f1b74c;
+    }
+    .contactUs:before {
+      background-image: url(../images/homepage/homePage_img21.png);
+    }
+  }
+  .footer3 {
+    > div {
+      text-align: left;
+      background-color: #4d545a;
+      color: #fff;
+    }
+    > div:before {
+      content: "";
+
+      display: inline-block;
+      *display: inline;
+      zoom: 1;
+
+      width: 33px;
+      height: 33px;
+      background-size: contain;
+      margin-right: 10px;
+      vertical-align: middle;
+      background-repeat: no-repeat;
+    }
+    .contactUs:before {
+      //margin-top: 10px;
+      -webkit-background-size: 33px 33px;
+      background-size: 33px 33px;
+    }
+    .contactPhone {
+      font-size: 24px;
+    }
+    .contactEmail {
+    }
+    .contactAddress {
+      width: 250px;
+      margin-top: 10px;
+      line-height: 24px;
+    }
+    .contactEmail:before {
+      background-image: url(../images/homepage/homePage_img22.png);
+      margin-right: 13px;
+    }
+    .contactAddress:before {
+      background-image: url(../images/homepage/homePage_img23.png);
+      float: left;
+      margin-right: 16px;
+    }
+  }
+  .footer4{
+    float: right;
+    right: 0;
+    > img {
+      //margin-top: 10px;
+      width: 150px;
+    }
+    > p {
+      color: #fff;
+      line-height: 16px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+  }
+
+}
+
+.footerWarpBottom .footer5 {
+  position: absolute;
+  color: #f8f8f8;
+  width: 400px;
+  left: 50%;
+  margin-left: -350px;
+  bottom:10px;
+  font-size: 12px;
+  line-height: 22px;
+  width: 700px;
+  z-index: 999;
+}
+
+

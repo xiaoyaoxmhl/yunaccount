@@ -1,0 +1,66 @@
+/*财税频道-列表文章的具体内容*/
+
+//颜色
+$primaryColor:#00a2c9;
+$border:#e0e0e0;
+
+.financel-doc{
+  width: 100%;
+  .financel-doc-detail{
+    width: 1200px;
+    height: 134px;
+    border-bottom: 1px solid $border;
+    margin: 0 auto;
+    >p{
+      text-align: center;
+      margin-top: 40px;
+      font-size: 24px;
+      color: #333333;
+      font-weight: bold;
+    }
+    >ul{
+      margin-top: 22px;
+      height: 26px;
+      width: 100%;
+      text-align: center;
+      >li{
+        display: inline-block;
+        height: 26px;
+        line-height: 26px;
+        font-size: 14px;
+        color: #999999;
+        margin-right: 36px;
+        vertical-align: top;
+        >img{
+          width: 20px;
+          height: 20px;
+          margin-top: 1px;
+        }
+      }
+    }
+  }
+
+  .financel-doc-container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 26px;
+    font-size: 16px;
+    color: #333333;
+    line-height: 30px;
+    text-indent: 40px;
+    border-bottom: 1px solid $border;
+  }
+
+  .financel-doc-index{
+    width: 1200px;
+    margin: 14px auto;
+    >a{
+      font-size: 16px;
+      color: #666666;
+      line-height:40px;
+    }
+    >a:hover{
+      color: $primaryColor;
+    }
+  }
+}

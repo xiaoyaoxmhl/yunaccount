@@ -1,0 +1,1 @@
+$(function(){window.setInterval(function(){var t=$(window).height(),o=$(".footerWarpBottom"),e=parseInt(o.height());t<800&&e>228&&(o.css("height","228px"),$(".homepage .ulWarp-item4").css("top","14%"),$(".footerWarpBottom .footer5").css("bottom","0px"))},500)});

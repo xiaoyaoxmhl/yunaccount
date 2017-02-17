@@ -1,0 +1,103 @@
+/*顶部导航栏*/
+@import "./layout/topnav";
+/*底部栏样式*/
+@import "./layout/bottom-contactus";
+@import "./layout/color-font";
+@import "./layout/common";
+@import "./layout/infos-header";
+@import "./layout/infos-list-index";
+@import "./layout/infos-list";
+
+.nav-wrap {
+  background-color: #fff;
+}
+
+body {
+  background-color: #fff;
+}
+
+.infos-header {
+  height: 160px;
+  border-bottom: 1px solid transparent;
+  p {
+    font-size: 18px;
+    color: #666666;
+    .bigSpan {
+      color: $primaryColor;
+    }
+  }
+  .query {
+    margin-top: 45px;
+  }
+  .result {
+    margin-top: 14px;
+    color: #333333;
+    .bigSpan {
+      font-size: 24px;
+    }
+  }
+}
+
+.infos-list {
+
+  .infos-content {
+
+    >ul{
+
+      .infos-content-border {
+        border-top: 1px solid $border;;
+      }
+
+    }
+  }
+}
+
+/*覆盖组件infos-list*/
+.infos-list .infos-content-li{
+  height: 104px;
+  padding-top:26px;
+  padding-bottom: 0;
+  >img{
+    width: 132px;
+    height: 82px;
+    float: left;
+    vertical-align: top;
+  }
+  >p{
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #333333;
+    height: 16px;
+    span{
+      display: inline-block;
+      height: 16px;
+    }
+    .infos-content-left{
+      width: 92px;
+      text-align: right;
+      float: left;
+    }
+
+    .infos-content-center{
+      float: left;
+      width: 306px;
+      text-align: left;
+      padding-left: 5px;
+    }
+    .infos-content-num{
+
+    }
+    .infos-content-right{
+      float: right;
+      background-color: #6bb6ce;
+      height: 30px;
+      line-height: 30px;
+      padding: 0 14px;
+      color: #fff;
+    }
+    .infos-content-warm{
+      background-color: #f65f5d;
+    }
+  }
+}
+/***************************该页面公用样式***************************/

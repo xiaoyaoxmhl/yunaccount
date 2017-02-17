@@ -1,0 +1,73 @@
+
+@import "color-font";
+
+
+/*
+效果*/
+.boxShow {
+  display: block!important;
+}
+
+
+
+
+.dot {
+  display: inline-block;
+  margin: 0 10px;
+  width: 6px;
+  height: 6px;
+  background-image: url(../images/common/dot.png);
+  background-repeat:no-repeat;
+  vertical-align: middle;
+  font-size: 60px;
+}
+
+.display-none{
+  display: none;
+}
+
+.visibility-hidden{
+  visibility: hidden;
+}
+
+.font-bold{
+  font-weight: bold;
+}
+
+.stress-icon:before{
+  content: "*";
+  margin: 0;
+  padding: 0;
+  color: $primaryRed;
+}
+
+
+
+/*checkbox 样式*/
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  background: #fff url("../images/common/checkgroup.png");
+  height: 20px;
+  vertical-align: middle;
+  width: 20px;
+  cursor: pointer;
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+input[type="checkbox"]:focus,
+input[type="checkbox"]:hover {
+  background-position: -22px 0;
+  outline: none;
+}
+input[type="checkbox"]:checked {
+  background-position: -44px 0;
+}
+
+input[type="checkbox"][disabled] {
+  background-position: -66px 0;
+}
+
+input[type="checkbox"][disabled]:checked {
+  background-position: -88px 0;
+}
+

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>云会计</title>
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/aboutUs.css">
+
+    <script src="./js/lib/jquery.min.js"></script>
+
+    <!--接入百度地图-->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+    <style>
+        .BMap_noprint{
+            background-size: 100% 100% !important;
+        }
+    </style>
+</head>
+<body>
+
+
+<!--顶部 导航栏-->
+<div class="nav-wrap" id="nav-wrap">
+    <div class="headerNav ">
+        <!--商标-->
+        <span class="headerNavIcon">
+
+            </span>
+        <ul class="headerNavUl">
+            <li>
+                <a href="./index.html">首页</a>
+            </li>
+            <li>
+                <a href="./productCenter.html">产品中心</a>
+            </li>
+            <li>
+                <a href="./productExperience.html">产品体验</a>
+            </li>
+            <!--<li>-->
+                <!--<a href="./selfHelp.html">自助查询</a>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<a href="./financel.html">财税频道</a>-->
+            <!--</li>-->
+            <li class="navCheck">
+                <a href="./aboutUs.html">关于我们</a>
+            </li>
+        </ul>
+
+
+    </div>
+    <img src="./images/common/border-box.png" alt="" class="boder-img">
+</div>
+<div class="header-nav-blank">
+
+</div>
+<div class="about-us">
+
+    <img src="./images/about-us/aboutUs_imgs1.jpg" alt="" class="banner-img">
+
+    <div class="company">
+        <p class="about-title">
+            公司简介
+        </p>
+        <p class="about-subtitle">
+            Company Profile
+        </p>
+
+       <div class="company-content-warp">
+           <div class="about-content">
+               <span class="primary-span">云会计</span>总部坐落于美丽的鹭岛——<span class="primary-span">厦门</span>，为中小微企业提供专业便捷的财税服务,致力于成为智能<span class="primary-span">财税领导者</span>。</div>
+
+           <div class="about-content">
+               厦门云会计网络科技有限公司是由线下财务公司龙头企业、上市公司研发团队发起的互联网财税平台公司，集线上智能建账、一键报税、线下专业会计师团队服务，打造一流的<span class="primary-span">互联网+智能财税平台</span>，致力于成为“智能财税领导者”。
+           </div>
+           <div class="about-content">
+               公司管理技术团队由原纽交所上市公司研发部技术骨干、厦门地区知名财税专家、互联网法律服务平台新锐负责人组成，云会计产品于2015年10月上线至今，已服务12000多家中小微企业。
+           </div>
+       </div>
+
+
+
+    </div>
+    <div class="team">
+        <div class="about-title">
+            团队简介
+        </div>
+        <div class="about-subtitle">
+            Team Profile
+        </div>
+        <div class="about-content">
+            一支专注<span class="primary-span">财税19年</span>的500+专业服务团队<br>
+            一支拥有<span class="primary-span">十年</span>大型金融软件，互联网平台研发经验的上市公司研发团队<br>
+            一支专注智能财税软件开发和互联网技术的团队<br>
+        </div>
+
+    </div>
+
+    <div class="about-us-imgs">
+        <p class="about-us-imgs-t font-bold">
+            这就是我们
+        </p>
+        <img src="./images/about-us/aboutUs_imgs3.png" alt="">
+    </div>
+
+    <div class="contact-us">
+        <div class="about-title">
+            联系我们
+        </div>
+        <div class="about-subtitle">
+            Contact Us
+        </div>
+        <div class="contact-us-warp">
+            <div class="contact-us-left">
+                <p class="company-name font-bold">
+                    厦门云会计网络科技有限公司
+                </p>
+                <p class="contact-subtitle font-bold">
+                    联系地址
+                </p>
+                <p class="contact-subcontent">
+                    厦门市思明区湖滨西路85号慧景城一楼
+                </p>
+                <p class="contact-subtitle font-bold">
+                    业务热线
+                </p>
+                <p class="contact-subcontent">
+                    4008-032-089
+                </p>
+                <p class="contact-subtitle font-bold">
+                    联系邮箱
+                </p>
+                <p class="contact-subcontent">
+                    service@yunacct.com
+                </p>
+                <p class="contact-subtitle font-bold">
+                    传真
+                </p>
+                <p class="contact-subcontent">
+                    0592-3788888
+                </p>
+
+            </div>
+           <div class="map-baidu">
+               <!--百度地图容器-->
+               <div style="width:697px;height:380px;border:#ccc solid 1px;" id="dituContent"></div>
+           </div>
+        </div>
+    </div>
+
+</div>
+
+<!--底部栏-->
+<div class="footerWarpBottom js-footer-bottom" id="footerWarpBottom">
+    <div class="footerwarp-width">
+        <div class="footer1 ">
+            <p class="footerTitle">
+                友情连接
+            </p>
+            <p class="footerDetail">
+                加捷事务所
+            </p>
+            <p class="footerDetail">
+                财大大
+            </p>
+            <p class="footerDetail">
+                阿里云
+            </p>
+            <p class="footerDetail">
+                百度
+            </p>
+            <p class="footerDetail">
+                360
+            </p>
+        </div>
+
+        <div class="footer2">
+            <p class="footerTitle">
+                产品与服务
+            </p>
+            <p class="footerDetail">
+                0申报企业
+            </p>
+            <p class="footerDetail">
+                一般纳税人
+            </p>
+            <p class="footerDetail">
+                小规模纳税人
+            </p>
+            <p class="footerDetail">
+                产品体验
+            </p>
+            <p class="footerDetail">
+                产品中心
+            </p>
+        </div>
+        <div class="footer3">
+            <div class="contactUs">
+                联系我们
+            </div>
+            <div class="contactPhone">
+                4008-032-089
+            </div>
+            <div class="contactEmail">
+                service@yunacct.com
+            </div>
+
+            <div class="contactAddress">
+                厦门市思明区湖滨西路85号慧景城一楼
+            </div>
+        </div>
+        <div class="footer4">
+            <img src="./images/homepage/homePage_img24.png" alt="">
+            <p>扫一扫</p>
+            <p>关注微信公众号</p>
+        </div>
+
+
+    </div>
+    <div class="footer5">
+        Copyright©2015-2017 厦门云会计网络科技有限公司 版权所有<br>
+        闽ICP备15026086号-1
+    </div>
+</div>
+
+</body>
+
+<!--百度地图初始化-->
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(118.084345,24.472674);//定义一个中心点坐标
+        map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+        var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+        map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+        var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+        map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+        var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+        map.addControl(ctrl_sca);
+    }
+
+    //标注点数组
+    var markerArr = [{title:"厦门云会计网络科技有限公司",content:"我的备注",point:"118.084745|24.472987",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+    ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+            var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+            var iw = createInfoWindow(i);
+            var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+            marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                borderColor:"#808080",
+                color:"#333",
+                cursor:"pointer"
+            });
+
+            (function(){
+                var index = i;
+                var _iw = createInfoWindow(i);
+                var _marker = marker;
+                _marker.addEventListener("click",function(){
+                    this.openInfoWindow(_iw);
+                });
+                _iw.addEventListener("open",function(){
+                    _marker.getLabel().hide();
+                })
+                _iw.addEventListener("close",function(){
+                    _marker.getLabel().show();
+                })
+                label.addEventListener("click",function(){
+                    _marker.openInfoWindow(_iw);
+                })
+                if(!!json.isOpen){
+                    label.hide();
+                    _marker.openInfoWindow(_iw);
+                }
+            })()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("./images/aboutUs_imgs4.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+
+    initMap();//创建和初始化地图
+</script>
+
+</html>

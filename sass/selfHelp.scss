@@ -1,0 +1,225 @@
+/*顶部导航栏*/
+@import "./layout/topnav";
+/*底部栏样式*/
+@import "./layout/bottom-contactus";
+@import "./layout/common";
+@import "./layout/color-font";
+@import "./layout/dialog-contactus";
+
+
+.nav-wrap {
+  background-color: #fff;
+}
+
+
+.self {
+
+  /*banner 图设置*/
+  .self-banner {
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/self-help/selfhelp_imgs_banner.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    .self-banner-title {
+      width: 100%;
+      height: 48px;
+      line-height: 48px;
+      text-align: center;
+      margin-top: 78px;
+      font-size: 48px;
+      color: #fff;
+      margin-bottom: 0px;
+    }
+
+    .self-banner-subtitle {
+      font-size: 36px;
+      color: #ffcf68;
+      width: 100%;
+      margin-top: 27px;
+      height: 36px;
+      text-align: center;
+      > span {
+        color: #fff;
+        margin-left: 36px;
+      }
+    }
+
+
+
+  }
+
+}
+.self .self-banner-query {
+  height: 266px;
+  width: 890px;
+  margin: 0px auto;
+  margin-top: 66px;
+
+  .self-banner-btngroup {
+    height: 66px;
+    width: 100%;
+    .self-banner-btn {
+      width: 244px;
+      height: 66px;
+      line-height: 66px;
+      font-size: 24px;
+      text-align: center;
+      color: #fff;
+      display: inline-block;
+      z-index: 10;
+      background-color: #3a6076;
+      opacity: 0.7;
+      float: left;
+      cursor: pointer;
+    }
+    .self-banner-check {
+      background-image: url("../images/self-help/selfhelp_imgs1.png");
+      position: relative;
+      top: 0px;
+      height: 76px;
+      background-color: transparent;
+      opacity: 1;
+    }
+
+  }
+
+}
+
+.self .self-banner-querypannle {
+  width: 806px;
+  height: 104px;
+  background-color: rgba(255, 255, 255, 0.1);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#19ffffff,endColorstr=#19ffffff);
+  padding: 48px 42px;
+  .self-banner-querypannle-title {
+    margin-top: 0;
+    font-size: 18px;
+    color: #f9f9f9;
+    > span {
+      font-size: 24px;
+      color: #ffce68;
+    }
+
+  }
+  .self-banner-querypannle-search {
+    margin-top: 24px;
+    width: 802px;
+    height: 60px;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    > img {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      top: 12px;
+      left: 16px;
+    }
+    > input {
+      vertical-align: top;
+      height: 60px;
+      line-height: 60px;
+      width: 572px;
+      float: left;
+      padding-left: 60px;
+      padding-right: 10px;
+      font-size: 18px;
+    }
+    > div {
+      vertical-align: top;
+      display: inline-block;
+      width: 160px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      font-size: 30px;
+      background-color: #f5a800;
+      color: #fff;
+      float: right;
+      cursor: pointer;
+    }
+  }
+
+}
+
+/*bannner图-查询*/
+.self {
+
+  .self-content {
+    background-color: #fff;
+    border: 1px solid transparent;
+    padding-bottom: 30px;
+    .self-content-title {
+      font-size: 36px;
+      color: #333333;
+      text-align: center;
+      width: 100%;
+      margin-top: 50px;
+    }
+
+    .self-content-subtitle {
+      font-size: 20px;
+      color: #666666;
+      text-align: center;
+      width: 100%;
+      margin-top: 24px;
+    }
+
+  }
+
+}
+.self .self-content-character {
+  width: 100%;
+  margin-top: 70px;
+  text-align: center;
+
+  > li {
+    width: 150px;
+    height: 230px;
+    display: inline-block;
+    > img {
+      width: 110px;
+      height: 110px;
+    }
+    > p {
+      margin-top: 30px;
+      font-size: 24px;
+      color: #333333;
+    }
+
+  }
+  .self-content-character-c {
+    margin: 0 265px;
+  }
+}
+.self .process {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 70px;
+  > li {
+    width: 33%;
+    height: 58px;
+    display: inline-block;
+    margin-bottom: 50px;
+    text-align: right;
+    > img {
+      width: 56px;
+      height: 56px;
+    }
+    > div {
+      vertical-align: top;
+      display: inline-block;
+      height: 100%;
+      width: 260px;
+      padding-left: 16px;
+      font-size: 20px;
+      color: #666666;
+      line-height: 24px;
+      padding-top: 5px;
+      text-align: left;
+    }
+  }
+}

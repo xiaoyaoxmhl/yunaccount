@@ -1,0 +1,297 @@
+/*顶部导航栏*/
+@import "./layout/topnav";
+/*底部栏样式*/
+@import "./layout/common";
+@import "./layout/color-font";
+
+.nav-wrap {
+  background-color: #fff;
+}
+
+body {
+  background-color: #fff;
+}
+
+.login-footer {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #333333;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.register-bgc {
+  width: 100%;
+  height: 540px;
+  background-color: #f8f8f8;
+  overflow: hidden;
+  text-align: center;
+  .register-pannel {
+    margin: 40px auto;
+  }
+
+  .register-ul {
+    display: inline-block;
+    padding-bottom: 74px;
+    width: 720px;
+  }
+  .valid-li {
+    text-align: center;
+    width: 240px;
+    font-size: 14px;
+    color: #c7c7cc;
+    height: 54px;
+    display: inline-block;
+    > img {
+      width: 240px;
+      height: 28px;
+      //margin-bottom: 12px;
+    }
+  }
+  .register-process {
+    width: 720px;
+    height: 80px;
+    margin: 0 auto;
+    vertical-align: top;
+    > div {
+      display: inline-block;
+    }
+  }
+  .register-l {
+    width: 100px;
+    height: 44px;
+    line-height: 44px;
+    text-align: right;
+    margin-right: 10px;
+    margin-left: 148px;
+    color: #666666;
+  }
+  .register-r {
+    width: 350px;
+    height: 44px;
+    text-align: left;
+    line-height:44px;
+    position: relative;
+    > img {
+      margin-left: 16px;
+      //margin-top: 14px;
+      vertical-align: middle;
+      visibility: hidden;
+    }
+    > input {
+      width: 266px;
+      height: 42px;
+      line-height:42px;
+      border: 1px solid #d7d7d7;
+      border-radius: 6px;
+      font-size: 14px;
+      padding: 0 16px;
+    }
+
+  }
+  .dialog-tip-warm {
+    visibility: hidden;
+    clear: both;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #f65e5e;
+    text-align: left;
+    > img {
+      vertical-align: middle;
+    }
+  }
+
+  /*找回步骤一*/
+  .register-message {
+
+    .register-r {
+      text-align: left;
+      width: 460px;
+      .register-message-i {
+        width: 126px;
+        vertical-align: top;
+      }
+    }
+
+    .valid-code {
+      width: 126px;
+      height: 44px;
+      line-height: 44px;
+      background-color: $primaryColor;
+      color: #fff;
+      display: inline-block;
+      text-align: center;
+       margin-left: 14px;
+      border-radius: 5px;
+      cursor: pointer;
+      vertical-align: middle;
+    }
+    .valid-code-again {
+      background-color: #c8c7cd;
+      color: #666666;
+      text-align: center;
+    }
+    .valid-messagetip {
+
+    }
+
+  }
+
+  /*找回步骤二*/
+  .valid-messagetip {
+    position: absolute;
+    left: 316px;
+    width: 300px;
+    font-size: 14px;
+    color: #6bb5ce;
+    height: 44px;
+    line-height:22px;
+    visibility: hidden;
+    top:0;
+  }
+
+  /*找回步骤三*/
+  .tip-ok-pannel {
+    .tip-ok-title {
+      margin-top: 30px;
+      font-size: 24px;
+      line-height:24px;
+      color: #333333;
+    }
+    .tip-ok-sub {
+      margin-top: 12px;
+      font-size: 16px;
+      line-height: 16px;
+      color: #666666;
+    }
+    .tip-skip{
+      margin-top: 24px;
+      font-size: 16px;
+      line-height: 16px;
+      color: #666666;
+      >span{
+        color: $primaryColor;
+      }
+    }
+  }
+
+  /*注册页面*/
+  .register-pannel-title {
+    font-size: 24px;
+    color: #333333;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    line-height: 24px;
+  }
+  .login-link {
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: #666666;
+    > a {
+      color: $primaryColor;
+    }
+  }
+  .register-agree {
+    height: 20px;
+    line-height: 20px;
+    color: #333333;
+    font-size: 16px;
+    > input {
+      margin-right: 15px;
+      vertical-align: top;
+    }
+    > a {
+      color: $primaryColor;
+      text-decoration: underline;
+    }
+  }
+  .tip-agree-wrap {
+    width: 720px;
+    height: 50px;
+    margin: 0 auto;
+    vertical-align: top;
+    text-align: left;
+  }
+  .dialog-tip-agree {
+    visibility: hidden;
+    margin-left: 258px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #f65e5e;
+    text-align: left;
+    > img {
+      vertical-align: middle;
+    }
+  }
+
+  /*提交按钮*/
+
+
+  .register-sub {
+    width: 160px;
+    height: 44px;
+    color: #fff;
+    line-height: 44px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 34px;
+    background-color: $primaryColor;
+    border-radius: 5px;
+  }
+  .register-back{
+    margin-right: 30px;
+  }
+  .register-immediately{
+    width: 240px;
+    height: 44px;
+    line-height: 44px;
+    color: #fff;
+    background-color: $primaryColor;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 5px;
+  }
+}
+
+/*
+注册协议*/
+.register-agreement{
+  padding-bottom: 56px;
+  width: 100%;
+  background-color: #f8f8f8;
+  overflow: hidden;
+  text-align: center;
+  .register-agreement-img{
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .register-content{
+    margin: 0 auto;
+    width: 980px;
+    font-size: 16px;
+    color: #333333;
+    text-align: left;
+    line-height:25px;
+  }
+}
+
+
+
+
+
+
+
+/*验证流程通过状态*/
+.register-bgc .valid-pass {
+  color: #f65e5e;
+}
+
+.register-user-bgc {
+  height: 880px;
+}

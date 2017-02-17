@@ -1,0 +1,155 @@
+@import "../layout/color-font";
+
+/*选项卡 A 第二个 li*/
+
+
+.product-c .product-c-container-a  .listContainer-li2 .listContainer-title-dot {
+  height: 92px;
+  width: 100%;
+  text-align: center;
+  line-height: 92px;
+  font-size: 30px;
+  color: #333333;
+  vert-align: middle;
+}
+
+.product-c .listContainer-li2 .listContent-2{
+  line-height: 0px;
+}
+.product-c .listContainer-li2 .listContent-2 {
+  .title {
+    margin-top: 115px;
+    height: 50px;
+    width: 600px;
+    line-height: 50px;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 37px;
+    > span {
+      font-size: 48px;
+      color: #5E97f6;
+    }
+  }
+  .detail-w1, .detail-w2 {
+    display: inline-block;
+    height: 94px;
+    line-height: 94px;
+    font-size: 24px;
+    color: #666666;
+    vertical-align: middle;
+    text-align: left;
+    >img{
+      height: 60px;
+      width: 60px;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+  }
+  .detail-w1 {
+    margin-left: 5px;
+    width: 260px;
+    margin: 0 auto;
+    //margin-top: 50px;
+
+  }
+  .detail-w2 {
+    margin: 0 auto;
+    width: 275px;
+  }
+
+}
+
+/*选项卡 A 第三个 li*/
+.product-c .listContainer-li3 .listContainer{
+  border-top: 1px solid #d7d7d7;
+}
+
+.product-c .list-content3-title{
+  display: inline-block;
+  margin-top: 60px;
+  width: 600px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 30px;
+  text-align: center;
+  color: #333333;
+  > span{
+    font-size: 48px;
+    color: #9a89b9;
+  }
+}
+
+.product-c .listContent-3{
+  >ul{
+    width: 600px;
+    margin-top: 55px;
+    padding-left: 90px;
+    >li{
+      display: inline-block;
+      width: 100%;
+      height: 72px;
+      line-height: 72px;
+      vert-align: middle;
+      font-size: 24px;
+      color: #666666;
+      text-align: left;
+      >img{
+        width: 60px;
+        height: 60px;
+        vertical-align: middle;
+        margin-right: 20px;
+
+      }
+    }
+  }
+
+}
+
+
+
+
+/*选项卡 A 第个四 li*/
+.product-c .list-content4-title{
+  margin-top: 100px;
+  > span{
+    color: #78c06e;
+  }
+}
+
+.product-c .listContent-4{
+  >ul{
+    margin-top: 55px;
+    padding-left: 100px;
+  }
+}
+
+/*选项卡 A 第五个 li*/
+.product-c .listContent-5{
+  .list-content5-title{
+    margin-top: 120px;
+
+  }
+  >ul{
+    width: 600px;
+    >li{
+      margin-top: 70px;
+      width: 188px;
+      height: 200px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+      font-size: 24px;
+      color: #666666;
+      >img{
+        width: 60px;
+        height: 60px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 22px;
+
+      }
+    }
+  }
+}

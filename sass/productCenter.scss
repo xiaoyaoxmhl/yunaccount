@@ -1,0 +1,307 @@
+
+/*顶部导航栏*/
+@import "./layout/topnav";
+
+/*底部栏样式*/
+@import "./layout/bottom-contactus";
+
+/*填写客户信息对话框*/
+@import "./layout/dialog-contactus";
+
+/*选项卡 A 内容 开始*/
+@import "./depend/productCenter-a";
+
+/*选项卡 B 内容 开始*/
+@import "./depend/productCenter-b";
+
+
+@import "./layout/color-font";
+@import "./layout/common";
+
+.nav-wrap {
+  background-color: #fff;
+}
+
+
+/****************************页面样式****************************/
+
+.product-c {
+
+}
+body{
+  overflow-x: hidden;
+}
+
+/*
+
+
+/*banner图*/
+.product-c .banner {
+  //height: 388px;
+  width: 100%;
+
+}
+
+/*选项卡*/
+.product-c .productTable {
+  height: 80px;
+  line-height: 80px;
+  background-color: #f0eff5;
+  //width: 100%;
+  padding: 0 30%;
+  text-align: center;
+  > span {
+    vertical-align: top;
+    font-size: 18px;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    width: 100px;
+    text-align: center;
+    .borderSpan {
+      display: inline-block;
+      width: 54px;
+      height: 4px;
+      background-color: #f0eff5;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      margin-left: -27px;
+    }
+  }
+  > span:hover {
+    font-size: 24px;
+    color: #00add1;
+    cursor: pointer;
+  }
+  > span:hover span {
+    background-color: #00add1;
+  }
+  .productTable-l {
+    float: left;
+  }
+  .productTable-r {
+    float: right;
+  }
+
+}
+
+
+
+/*选项卡 A 内容 开始*/
+
+.product-c .product-c-container-a {
+  > ul {
+    width: 100%;
+
+    > li {
+      display: inline-block;
+      *display: inline;
+      zoom: 1;
+      height: 500px;
+      width: 100%;
+      text-align: center;
+      background-color: #fff;
+      .listContainer {
+        border-bottom: 1px solid #d7d7d7;
+        display: inline-block;
+        *display: inline;
+        zoom: 1;
+        width: 1200px;
+        height: 500px;
+        //line-height: 500px;
+        margin: 0 auto;
+        vertical-align: middle;
+        > div {
+          float: left;
+        }
+      }
+      .listContent {
+        display: inline-block;
+        *display: inline;
+        zoom: 1;
+        width: 600px;
+        height: 500px;
+        //line-height: 0px;
+        //border: 1px solid #000;
+      }
+      .listContent-1{
+        height: 420px;
+      }
+    }
+    .listContainer-li3 .listContainer{
+      height: 498px;
+    }
+    .listContainer-li4 .listContainer{
+      height: 498px;
+    }
+    .listContainer-li1{
+      background-color: #f8f8f8;
+      > .listContainer{
+        background-color: #fff;
+        height: 420px;
+        margin-top: 40px;
+        border-bottom: none;
+      }
+      > .listContainer:hover{
+        cursor: pointer;
+        box-shadow: 0px 0px 20px #c6c6c6;
+      }
+    }
+  }
+
+}
+
+.product-c .product-c-container-a >ul .product-c-container-a1 .listContainer{
+  margin-top: 40px;
+  height: 420px;
+  //line-height: 420px;
+}
+
+.product-c .product-c-container-a > ul {
+  > .product-c-container-a1 {
+    background-color: #f8f8f8;
+    > div {
+      background-color: #fff;
+    }
+  }
+}
+
+/*
+第二个 li 个人尺寸设定*/
+.product-c .product-c-container-a > ul {
+  .listContainer-li2 {
+    height: 592px;
+    > div {
+      height: 512px;
+    }
+  }
+
+}
+
+.product-c .product-c-container-a .listContent-1 {
+  position: relative;
+  .title {
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    color: #333333;
+    width: 280px;
+    border-bottom: 1px solid #d7d7d7;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    > span {
+      font-size: 36px;
+      color: #ff7e00;
+    }
+  }
+  .detail {
+    vertical-align: top;
+    margin-top: 0px;
+    padding-top: 18px;
+    width: 100%;
+    line-height: 22px;
+    height: 106px;
+    font-size: 16px;
+    color: #666666;
+  }
+  > ul {
+    width: 450px;
+    height: 24px;
+    margin-top: 0px;
+    margin: 0 auto;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: top;
+    > li {
+      height: 24px;
+      line-height: 24px;
+      width: 150px;
+      float: left;
+      font-size: 24px;
+      color: #666;
+      vertical-align: middle;
+      > img {
+        vertical-align: middle;
+        height: 20px;
+        width: 20px;
+      }
+    }
+  }
+  .listContentBtn {
+    position: absolute;
+    width: 210px;
+    height: 58px;
+    line-height: 58px;
+    color: $primaryColor;
+    font-size: 18px;
+    border: 1px solid $primaryColor;
+    bottom: 66px;
+    left: 50%;
+    margin-left: -105px;
+    border-radius: 6px;
+
+  }
+  .listContentBtn:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: $primaryColor;
+  }
+
+}
+
+.product-c {
+  .list-img {
+    width: 600px;
+    height: 500px;
+    line-height: 500px;
+    vertical-align: middle;
+    background-repeat:no-repeat;
+    background-position:center center;
+
+    > img {
+      vertical-align: middle;
+    }
+  }
+}
+/*
+各个栏目背景图*/
+.product-c .list-img-1{
+  background-image: url(../images/product-center/productCenter_imgs1.png);
+  height: 420px;
+  line-height: 420px;
+  background-position: 94px center;
+
+
+}
+.product-c .list-img-2{
+  background-image: url(../images/product-center/productCenter_imgs2.png);
+
+}
+
+.product-c .list-img-3{
+  background-image: url(../images/product-center/productCenter_imgs3.png);
+
+}
+
+.product-c .list-img-4{
+  background-image: url(../images/product-center/productCenter_imgs4.png);
+
+}
+
+.product-c .list-img-5{
+  background-image: url(../images/product-center/productCenter_imgs5.png);
+
+}
+
+/*选项卡选中状态*/
+.choose-checked {
+  font-size: 24px!important;
+  color: #00add1;
+  cursor: pointer;
+}
+.choose-checked > span {
+  background-color: #00add1!important;
+}

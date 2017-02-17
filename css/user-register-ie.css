@@ -1,0 +1,1 @@
+@charset "UTF-8";.register-bgc input[type=checkbox]{background:0 0;height:20px;vertical-align:middle;width:20px;cursor:pointer}.register-bgc input[type=checkbox]:checked,.register-bgc input[type=checkbox]:focus,.register-bgc input[type=checkbox]:hover,.register-bgc input[type=checkbox][disabled],.register-bgc input[type=checkbox][disabled]:checked{background-position:0 0}

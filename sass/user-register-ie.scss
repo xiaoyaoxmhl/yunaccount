@@ -1,0 +1,28 @@
+
+/*checkbox 样式*/
+.register-bgc{
+  input[type="checkbox"] {
+    background: none;
+    height: 20px;
+    vertical-align: middle;
+    width: 20px;
+    cursor: pointer;
+  }
+  input[type="checkbox"]:focus,
+  input[type="checkbox"]:hover {
+    background-position: 0 0;
+  }
+  input[type="checkbox"]:checked {
+    background-position: 0 0;
+  }
+
+  input[type="checkbox"][disabled] {
+    background-position: 0 0;
+  }
+
+  input[type="checkbox"][disabled]:checked {
+    background-position: 0 0;
+  }
+
+
+}

@@ -1,0 +1,1 @@
+$(function(){var i=$(".btn-experice"),o=$("body").height(),e=$(window).height(),n=$(".js_dialogWarp");n.height(o),i.on("click",function(){n.removeClass("display-none"),n.css("height",o);var i=$(".dialog-contact").height(),t=(e-i)/2+"px";$(".dialog-contact").css("margin-top",t),$("body").css("overflow","hidden")})});

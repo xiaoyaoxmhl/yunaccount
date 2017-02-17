@@ -1,0 +1,57 @@
+.pages li {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+
+	width: 25px;
+	height: 5px;
+	background-color: #8c898a;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.pages li:hover {
+	cursor: pointer;
+	width: 40px;
+	background-color: #00a2c9;
+}
+.pages li.active {
+	width: 40px;
+	background-color: #00a2c9;
+}
+
+.pages {
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+}
+
+/*横屏滑动*/
+.pages.horizontal {
+	width: 100%;
+	padding: 0;
+	//width: 300px;
+	//margin-left: -150px;
+	//transform: translateX(-50%);
+	bottom: 7%;
+	li {
+		display: inline-block;
+		margin-right: 10px;
+	}
+	li:last-child {
+		margin-right: 0;
+	}
+}
+
+
+/*竖屏滑动*/
+.pages.vertical {
+	right: 5px;
+	top: 50%;
+	transform: translateY(-50%);
+	li {
+		margin-bottom: 10px;
+	}
+	li:last-child {
+		margin-bottom: 0;
+	}
+}

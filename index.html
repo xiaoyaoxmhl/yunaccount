@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>云会计</title>
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/lib/jquery.min.js"></script>
+    <!--鼠标滚动插件-->
+    <script src="./js/lib/jquery.mousewheel.min.js"></script>
+
+    <!--轮播图-->
+    <script src="./js/lib/pageSwitch.js"></script>
+
+    <!--滚动效果  包含初始化 轮播 -->
+    <script src="./js/lib/scroll.js"></script>
+
+
+    <script src="./js/dialogValid.js"></script>
+
+    <!--初始化第二个轮播-->
+    <script type="text/javascript" src="./js/lib/jquery.flexslider-min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.flexslider').flexslider({
+                directionNav: true,
+                pauseOnAction: false
+            });
+        });
+    </script>
+
+
+
+    <!--兼容 ie 媒体查询-->
+
+    <!--[if lte IE 8]>
+    <script src="./js/index-ie.js" /><![endif]-->
+    <!--兼容 ie 媒体查询-->
+
+
+    <script src="./js/index.js"></script>
+
+
+
+</head>
+<body>
+
+<!--顶部 导航栏-->
+<div class="nav-wrap" id="nav-wrap">
+    <div class="headerNav ">
+        <!--商标-->
+        <span class="headerNavIcon">
+
+            </span>
+        <ul class="headerNavUl">
+            <li class="navCheck">
+                <a href="./index.html">首页</a>
+            </li>
+            <li>
+                <a href="./productCenter.html">产品中心</a>
+            </li>
+            <li>
+                <a href="./productExperience.html">产品体验</a>
+            </li>
+            <!--<li>-->
+            <!--<a href="./selfHelp.html">自助查询</a>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--<a href="./financel.html">财税频道</a>-->
+            <!--</li>-->
+            <li>
+                <a href="./aboutUs.html">关于我们</a>
+            </li>
+        </ul>
+
+
+    </div>
+    <img src="./images/common/border-box.png" alt="" class="boder-img">
+</div>
+
+
+<!--页面部分。里面包含 bottom-contact-->
+<div class="homepage">
+
+    <!--侧边栏-->
+    <div class="sideBar">
+        <span class="sideBarSpan sildCheck" data-num="0">
+
+        </span>
+        <span class="sideBarSpan" data-num="1">
+
+        </span>
+        <span class="sideBarSpan" data-num="2">
+
+        </span>
+        <span class="sideBarSpan" data-num="3">
+
+        </span>
+        <span class="sideBarSpan" data-num="4">
+
+        </span>
+    </div>
+
+    <!--底部导航栏-->
+    <img src="./images/homepage/homePage_img25.png" alt="" class="bottomBarImg animation-up-down">
+
+
+    <!--滚动区域模块-->
+    <div class="dot-list">
+        <span class="dot-item active dotItem"></span>
+        <span class="dot-item dotItem"></span>
+        <span class="dot-item dotItem"></span>
+        <span class="dot-item dotItem"></span>
+        <span class="dot-item dotItem"></span>
+    </div>
+
+    <!--页面主体-->
+    <div class="page">
+        <!--第一个 板块 含 轮播图-->
+        <!--具体背景图。在 luobo.scss 文件中设置 .section 的 backgroundImage-->
+        <div class="container  page-item item1 pageItem  backgoundImage1">
+            <div class="htmleaf-container">
+                <div id="luobo-container">
+                    <div class="sections">
+                        <!--轮播图第一个板块-->
+                        <div class="section section0" id="section0">
+                            <div class="verticalAlign">
+                                <!--<div class="homePageScale">-->
+                                <div class="registerTitle">
+                                    <!--<span>0</span>元注册公司-->
+                                    <span>自 动</span> 做 账<img src="./images/homepage/homePage_img33.png" alt=""><span>一 键</span> 报 税
+                                </div>
+                                <div class="registerDetail">
+                                    <img src="./images/homepage/homePage_img33.png" alt="" style="margin-left: -18px">专 业<img src="./images/homepage/homePage_img33.png" alt="">智 能<img src="./images/homepage/homePage_img33.png" alt="">安 全<img src="./images/homepage/homePage_img33.png" alt="">易 用
+                                </div>
+                                <div class="btn-experice">
+                                    立即体验
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--轮播图第二个板块-->
+                        <div class="section section1" id="section1">
+                            <div class="verticalAlign">
+                                <!--<div class="homePageScale">-->
+                                <div class="registerTitle">
+                                    19年
+                                </div>
+                                <div class="registerDetail">
+                                    财税经验<img src="./images/homepage/homePage_img33.png" alt="">专业服务
+                                </div>
+                                <div class="btn-experice">
+                                    立即申请
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--第一个板块正文部分-->
+
+        </div>
+        <!--第二个板块-->
+        <div class="container page-item item2 pageItem backgoundImage2">
+
+            <div class="containerTitle">
+                云会计，专注智能财税 <span>19</span>年
+                <!--<div class="containerDetail">-->
+                <!--智能做账 / 自动报税 / 工具免费-->
+                <!--</div>-->
+            </div>
+            <div class="ulWarp">
+                <ul class="containerImageGroup">
+                    <li class="containerImageGroupLi ">
+                        <img src="./images/homepage/homePage_img1.png" alt="">
+                        <div>
+                            <p class="title">
+                                丰富的财务规则库
+                            </p>
+                            <ul>
+                                <li class="detail">
+                                    预置商业、工业、物流
+                                    等八大规则库
+                                </li>
+                                <li class="detail">
+                                    灵活的凭证模版配置
+                                </li>
+                                <li class="detail">
+                                    支持多种财务制度
+                                </li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li class="containerImageGroupLi  containerImageGroupLi-second">
+                        <img src="./images/homepage/homePage_img2.png" alt="">
+                        <div>
+                            <p class="title">
+                                智能高效
+                            </p>
+                            <ul>
+                                <li class="detail">
+                                    票据自动识别做账
+                                </li>
+                                <li class="detail">
+                                    建账规则自主学习
+                                </li>
+                                <li class="detail">
+                                    自动申报国地税
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="containerImageGroupLi containerImageGroupLi-third">
+                        <img src="./images/homepage/homePage_img3.png" alt="">
+                        <div>
+                            <p class="title">
+                                多元化的产品
+                            </p>
+                            <ul>
+                                <li class="detail">
+                                    工具免费，服务收费
+                                </li>
+                                <li class="detail">
+                                    服务按票据数收费
+                                </li>
+                            </ul>
+
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="containerImageGroup">
+                    <li class="containerImageGroupLi">
+                        <img src="./images/homepage/homePage_img4.png" alt="">
+                        <div>
+                            <p class="title">
+                                专业便捷
+                            </p>
+                            <ul>
+                                <li class="detail">
+                                    财务数据标准化
+                                </li>
+                                <li class="detail">
+                                    主流财务软件导入导出
+                                </li>
+                                <li class="detail">
+                                    无缝对接国地税
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="containerImageGroupLi containerImageGroupLi-second">
+                        <img src="./images/homepage/homePage_img5.png" alt="">
+                        <div>
+                            <p class="title">
+                                移动财税
+                            </p>
+                            <ul>
+                                <li class="detail">
+                                    多渠道支持
+                                </li>
+                                <li class="detail">
+                                    阿里钉钉金牌服务商
+                                </li>
+                                <li class="detail">
+                                    微信公众号接入
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="containerImageGroupLi containerImageGroupLi-third">
+                        <img src="./images/homepage/homePage_img6.png" alt="">
+                        <div>
+                            <p class="title">
+                                金融级别数据安全
+                            </p>
+                            <ul>
+                                <li class="detail">
+                                    阿里云金融云托管
+                                </li>
+                                <li class="detail">
+                                    数据加密存储
+                                </li>
+                                <li class="detail">
+                                    本地双备、异地灾备双重保障
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!--第三个板块-->
+        <div class="container page-item item3 pageItem  backgoundImage3">
+            <div class="containerTitle">
+                <!--云会计，专注更专业-->
+                线下团队专业服务
+                <div class="containerDetail">
+                    <!--线下专业团队服务,让您更放心-->
+                </div>
+            </div>
+            <div class="ulWarp ">
+                <ul class="containerImageGroup">
+                    <li class="containerImageGroupFocusLi">
+                        <img src="./images/homepage/homePage_img7.png" alt="">
+                        <p>集团事务所</p>
+                    </li>
+                    <li class="containerImageGroupFocusLi containerImageGroupFocusLi-second">
+                        <img src="./images/homepage/homePage_img8.png" alt="">
+                        <p>500+专业会计团队</p>
+                    </li>
+                    <li class="containerImageGroupFocusLi">
+                        <img src="./images/homepage/homePage_img9.png" alt="">
+                        <p>19年专业财税经验</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!--第四个板块-->
+        <div class="container page-item item4 pageItem backgoundImage4">
+            <div class="containerTitle">
+                听听客户的声音
+                <div class="containerDetail">
+                    客户的信任,是对我们最大的支持
+                </div>
+            </div>
+            <div class="ulWarp-item4">
+
+                <div class="bubble">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <!--<div class="bubble">-->
+                                <div class="bubble-content">
+                                    在互联网的浪潮下，让我们找到了云会计。无论从专业程度、便捷、性能上来说，云会计都很好的满足了这几方面。尤其是手机实时查看报表，满足了我随时随地查看报表的需求。
+                                </div>
+
+                                <!--</div>-->
+                                <div class="bubble-control">
+
+                                    <img src="./images/homepage/homePage_img31.png" alt="" class="bubble-logo">
+
+                                    <div class="bubble-control-content">
+                                        <p class="bubble-control-content-title">CEO</p>
+                                        <p class="bubble-control-detail">
+                                            财大大网络科技有限公司
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <!--<div class="bubble">-->
+                                <div class="bubble-content">
+                                    在互联网的浪潮下，让我们找到了云会计。无论从专业程度、便捷、性能上来说，云会计都很好的满足了这几方面。
+                                </div>
+
+                                <!--</div>-->
+                                <div class="bubble-control">
+
+                                    <img src="./images/homepage/homePage_img32.png" alt="" class="bubble-logo">
+
+                                    <div class="bubble-control-content">
+                                        <p class="bubble-control-content-title">CEO</p>
+                                        <p class="bubble-control-detail">
+                                            厦门加捷财税事务所集团有限公司
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <!--第五个板块 含底部栏-->
+        <div class="container page-item item5 pageItem backgoundImage5">
+            <div class="footerWarp">
+
+                <div class="footerWarpTop">
+                    <p class="footerWarpTopTitle">
+                        合作网站
+                    </p>
+                    <p class="footerWarpTopDetail">
+                        他们都选择了云会计
+                    </p>
+                </div>
+                <!--中间商标 滚动-->
+                <div class="footerWarpCenter">
+                    <ul>
+                        <li>
+                            <img src="./images/homepage/homePage_img15.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/homepage/homePage_img16.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/homepage/homePage_img17.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/homepage/homePage_img18.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+                <!--底部栏-->
+                <div class="footerWarpBottom js-footer-bottom" id="footerWarpBottom">
+                    <div class="footerwarp-width">
+                        <div class="footer1 ">
+                            <p class="footerTitle">
+                                友情连接
+                            </p>
+                            <p class="footerDetail">
+                                加捷事务所
+                            </p>
+                            <p class="footerDetail">
+                                财大大
+                            </p>
+                            <p class="footerDetail">
+                                阿里云
+                            </p>
+                            <p class="footerDetail">
+                                百度
+                            </p>
+                            <p class="footerDetail">
+                                360
+                            </p>
+                        </div>
+
+                        <div class="footer2">
+                            <p class="footerTitle">
+                                产品与服务
+                            </p>
+                            <p class="footerDetail">
+                                0申报企业
+                            </p>
+                            <p class="footerDetail">
+                                一般纳税人
+                            </p>
+                            <p class="footerDetail">
+                                小规模纳税人
+                            </p>
+                            <p class="footerDetail">
+                                产品体验
+                            </p>
+                            <p class="footerDetail">
+                                产品中心
+                            </p>
+                        </div>
+                        <div class="footer3">
+                            <div class="contactUs">
+                                联系我们
+                            </div>
+                            <div class="contactPhone">
+                                4008-032-089
+                            </div>
+                            <div class="contactEmail">
+                                service@yunacct.com
+                            </div>
+
+                            <div class="contactAddress">
+                                厦门市思明区湖滨西路85号慧景城一楼
+                            </div>
+                        </div>
+                        <div class="footer4">
+                            <img src="./images/homepage/homePage_img24.png" alt="">
+                            <p>扫一扫</p>
+                            <p>关注微信公众号</p>
+                        </div>
+
+
+                    </div>
+                    <div class="footer5">
+                        Copyright©2015-2017 厦门云会计网络科技有限公司 版权所有<br>
+                        闽ICP备15026086号-1
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--弹出对话框-->
+<div class="dialog-warp js_dialogWarp display-none" >
+    <div class="dialog-contact">
+        <img src="./images/common/close.png" alt="" class="dialog-contact-closed">
+
+        <div class="dialog-tip">
+            请填写以下联系信息，客服将在2小时内与您联系
+        </div>
+
+        <ul>
+            <li class="dialog-contact-li">
+                <div class="dialog-tip-form">
+                <span>
+                    <span class="red">*</span>姓名 :
+                </span>
+                    <input type="text" placeholder="请输入您的称呼">
+                    <img src="./images/common/check.png" alt="" class="valid-ok">
+                </div>
+                <div class="dialog-tip-warm">
+                    <img src="./images/common/warning.png" alt="">
+                    <span>输入正确的中文名或英文名</span>
+                </div>
+            </li>
+            <li class="dialog-contact-li">
+                <div class="dialog-tip-form">
+                <span>
+                   <span class="red">*</span>手机号码 :
+                </span>
+                    <input type="text" placeholder="请输入您的手机号">
+                    <img src="./images/common/check.png" alt=""class="valid-ok">
+                </div>
+                <div class="dialog-tip-warm">
+                    <img src="./images/common/warning.png" alt="">
+                    <span>请输入正确的手机格式</span>
+                </div>
+            </li>
+            <li class="dialog-contact-li">
+                <div class="dialog-tip-form">
+                    <span>
+                   <span class="red">*</span>公司名称 :
+                </span>
+                    <input type="text" placeholder="请输入您的公司名称" >
+                    <img src="./images/common/check.png" alt="" class="valid-ok">
+                </div>
+                <div class="dialog-tip-warm">
+                    <!--<img src="../images/common/warning.png" alt="">-->
+                    <!--请输入正确的手机格式-->
+                </div>
+            </li>
+            <li class="dialog-contact-li">
+                <div class="dialog-tip-form">
+                    <span>
+                   备注 :
+                </span>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <img src="./images/common/check.png" alt="" class="valid-ok">
+                </div>
+            </li>
+        </ul>
+        <div class="dialog-contact-btn">
+            立即提交
+        </div>
+
+    </div>
+</div>
+
+
+
+
+</body>
+</html>

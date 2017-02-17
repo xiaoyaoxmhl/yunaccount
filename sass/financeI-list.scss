@@ -1,0 +1,150 @@
+/*顶部导航栏*/
+@import "./layout/topnav";
+/*底部栏样式*/
+@import "./layout/bottom-contactus";
+@import "./layout/color-font";
+@import "./layout/common";
+@import "./layout/infos-header";
+@import "./layout/infos-list-index";
+@import "./layout/infos-list";
+@import "./depend/financeI-list-detail";
+
+.nav-wrap {
+  background-color: #fff;
+}
+
+body {
+  background-color: #fff;
+}
+
+.infos-header .header-warp .header-ul {
+  width: 1200px;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  padding-left: 38px;
+  > li {
+    float: left;
+    margin-right: 88px;
+    height: 50px;
+    vertical-align: top;
+    font-size: 24px;
+    color: #333333;
+    cursor: pointer;
+    position: relative;
+    > p {
+      font-size: 18px;
+      color: #333333;
+    }
+
+    > span {
+      display: inline-block;
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      margin-left: -27px;
+      width: 54px;
+      height: 4px;
+      background-color: #fff;
+
+    }
+  }
+  > li:hover {
+    color: $primaryColor;
+    > p {
+      font-size: 24px;
+    }
+    > span {
+      background-color: $primaryColor;
+    }
+  }
+}
+
+.infos-list {
+  width: 100%;
+
+  .infos-content {
+    width: 100%;
+    > ul {
+      width: 1200px;
+      margin: 0 auto;
+      > li {
+        height: 130px;
+        width: 100%;
+        border-bottom: 1px solid $border;
+        padding: 40px 0;
+        > img {
+          width: 208px;
+          height: 130px;
+          float: left;
+        }
+
+        .infos-content-detail {
+          margin-left: 26px;
+          float: left;
+          width: 966px;
+          height: 130px;
+          position: relative;
+
+          > a {
+            font-size: 24px;
+            color: #333333;
+          }
+          > a:hover {
+            color: $primaryColor;
+          }
+          > div {
+            display: inline-block;
+            width: 100%;
+            line-height: 24px;
+            font-size: 16px;
+            color: #666666;
+            margin-top: 20px;
+            > a {
+              line-height: 24px;
+              font-size: 16px;
+              color: #666666;
+            }
+          }
+          > ul {
+            height: 26px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            > li {
+              display: inline-block;
+              float: left;
+              height: 26px;
+              line-height: 26px;
+              font-size: 14px;
+              color: #999999;
+              margin-right: 36px;
+              vertical-align: top;
+              > img {
+                width: 20px;
+                height: 20px;
+                margin-top: 1px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+
+/***************************该页面公用样式***************************/
+.check-font-border-color {
+  > p {
+    color: $primaryColor !important;
+    font-size: 24px !important;
+  }
+  > span {
+    background-color: $primaryColor !important;
+
+  }
+}
+

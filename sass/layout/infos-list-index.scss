@@ -1,0 +1,49 @@
+/*底部页面索引*/
+
+.infos-list-index{
+
+  margin-top: 40px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+
+  >ul{
+
+    >li{
+      display: inline-block;
+      border: 1px solid $border;
+      border-radius: 4px;
+      margin-right: 10px;
+      >a{
+        display: inline-block;
+        padding: 10px;
+        font-size: 14px;
+        color: #333333;
+        text-align: center;
+      }
+    }
+    >li:hover{
+      border-color: $primaryColor;
+    }
+    .infos-list-index-pageup{
+      >a{
+        color: #999999;
+      }
+    }
+    .infos-list-index-pagedown{
+      margin-right: 0;
+    }
+
+  }
+
+
+}
+
+
+.check-page {
+  border-color: $primaryColor;
+  background-color: $primaryColor;
+  > a {
+    color: #fff !important;
+  }
+}

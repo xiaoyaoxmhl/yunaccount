@@ -1,0 +1,157 @@
+@import "./layout/color-font";
+@import "./layout/common";
+/*顶部导航栏*/
+@import "./layout/topnav";
+
+/*底部栏样式*/
+@import "./layout/bottom-contactus";
+
+
+.nav-wrap {
+  background-color: #fff;
+}
+
+/*视频体验*/
+.product-e {
+
+  .videoshow {
+    width: 100%;
+    height: 643px;
+    background-color: #22262a;
+    text-align: center;
+    padding-top: 17px;
+    .videoshow-tip {
+      width: 1100px;
+      height: 625px;
+      background-color: #000;
+      margin: auto;
+      margin-top: 0;
+      position: relative;
+      .videoshow-tip-title {
+        position: absolute;
+        top:190px;
+        width: 100%;
+        color: #fff;
+        font-size: 30px;
+        line-height: 54px;
+        height: 120px;
+        //margin-top: 190px;
+      }
+      .videoshow-tip-btn {
+        position: absolute;
+        top:320px;
+        color: #00aad3;
+        font-size: 18px;
+        width: 208px;
+        height: 56px;
+        left: 50%;
+        line-height: 58px;
+        border: 1px solid #00aad3;
+        margin: 14px auto;
+        margin-left: -104px;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+    }
+    .vediosrouce{
+      width: 1100px;
+      height: 625px;
+      margin: 0;
+    }
+  }
+  .function{
+    width: 100%;
+    height: 180px;
+    background-color: #f8f8f8;
+  }
+
+}
+
+/*体验明细*/
+.product-e .function-wrap {
+  width: 1200px;
+  height: 180px;
+  background-color: #f0eff5;
+  margin: 0 auto;
+  >ul{
+    padding: 0;
+    .imgwrap-center{
+      background-color: #f8f8f8;
+    }
+  }
+}
+.product-e .function-wrap-li{
+  float: left;
+  width: 399px;
+  height: 180px;
+  cursor: pointer;
+  .imgwrap{
+    width: 150px;
+    height: 180px;
+    line-height: 180px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    >img{
+      vertical-align: middle;
+    }
+    .imgwrap-img2{
+      display: none;
+    }
+  }
+
+  .content{
+    display: inline-block;
+    height: 180px;
+    vertical-align: middle;
+    .title{
+      margin-top: 32px;
+      font-size: 24px;
+      color: #333333;
+    }
+    .detail{
+      margin-top: 12px;
+      font-size: 16px;
+      color: #666666;
+    }
+    .content-btn{
+      width: 160px;
+      height: 44px;
+      //background-color: #fff;
+      color: $primaryColor;
+      line-height: 44px;
+      text-align: center;
+      margin-top: 22px;
+      border-radius: 8px;
+      border: 1px solid $primaryColor;
+      cursor: pointer;
+    }
+    .content-btn:hover{
+      color: #fff;
+      background-color: $primaryColor;
+    }
+  }
+}
+.product-e .function-wrap-li:hover{
+  .imgwrap-img1{
+    display: none;
+  }
+  .imgwrap-img2{
+    display: inline-block;
+  }
+  .title{
+    color: $primaryColor;
+  }
+}
+
+
+
+.product-e .footer{
+  width: 100%;
+  height: 74px;
+  text-align: center;
+  background-color: #fff;
+  padding-top: 30px;
+  font-size: 18px;
+  color: #999999;
+}

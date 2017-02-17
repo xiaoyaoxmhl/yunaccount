@@ -1,0 +1,135 @@
+/*顶部导航栏*/
+@import "./layout/topnav";
+/*底部栏样式*/
+@import "./layout/common";
+@import "./layout/color-font";
+
+.nav-wrap{
+  background-color: #fff;
+}
+body{
+  background-color: #fff;
+}
+.login-bgc{
+  width: 100%;
+  height: 540px;
+  background-color: #f8f8f8;
+  overflow: hidden;
+ /* 登录面板*/
+  .login-pannel{
+    height: 400px;
+    width: 1000px;
+    margin: 70px auto;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 0px 20px #c6c6c6;
+    >img{
+      width: 640px;
+      height: 400px;
+    }
+  }
+  /*登录面板右侧*/
+  .login-pannel-r{
+    width: 300px;
+    height: 340px;
+    float: right;
+    padding: 30px;
+  }
+  .login-pannel-title{
+    height: 24px;
+    font-size: 24px;
+    line-height: 24px;
+    color: $primaryColor;
+    text-align: center;
+  }
+  .login-pannel-title:before,.login-pannel-title:after{
+    content: '';
+    display: inline-block;
+    width: 80px;
+    height: 1px;
+    background-color: $primaryColor;
+    vertical-align: middle;
+  }
+  .login-pannel-title:before{
+    margin-right: 14px;
+  }
+  .login-pannel-title:after{
+    margin-left: 14px;
+  }
+  .login-chooise{
+      width: 300px;
+      height: 44px;
+      margin: 35px auto;
+    position: relative;
+    >img{
+      position: absolute;
+      left: 10px;
+      top: 10px;
+    }
+    >input{
+      width: 243px;
+      height: 42px;
+      line-height: 42px;
+      border: 1px solid #d7d7d7;
+      border-radius: 6px;
+      padding-left: 55px;
+      font-size: 14px;
+    }
+  }
+  .login-btn{
+    width: 300px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background-color: $primaryColor;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    margin: 18px auto 34px;
+    cursor: pointer;
+  }
+  .login-forget{
+    display: inline-block;
+    width: 300px;
+    height: 14px;
+    line-height:14px;
+    text-align: right;
+    >a{
+      font-size: 14px;
+      line-height:14px;
+      color: #f65e5e;
+    }
+  }
+  .register-new{
+    height: 14px;
+    line-height:14px;
+    width: 300px;
+    text-align: center;
+    >a{
+      font-size: 14px;
+      line-height:14px;
+      color: $primaryColor;
+    }
+  }
+   .dialog-tip-warm {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #f65e5e;
+     visibility: hidden;
+    > img {
+      vertical-align: middle;
+      margin-right: 5px;
+      line-height: 35px;
+    }
+  }
+}
+
+.login-footer{
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #333333;
+  line-height: 24px;
+  margin-top: 16px;
+}

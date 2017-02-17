@@ -1,0 +1,318 @@
+/*顶部导航栏*/
+@import "./layout/topnav";
+/*底部栏样式*/
+@import "./layout/bottom-contactus";
+@import "./layout/common";
+@import "./layout/color-font";
+
+.nav-wrap {
+  background-color: #fff;
+}
+
+body {
+  background-color: #fff;
+}
+
+.financel {
+  text-align: center;
+  width: 100%;
+  .finnancel-header {
+    width: 1200px;
+    height: 366px;
+    margin: 0 auto;
+    margin-top: 22px;
+    background-color: #fff;
+    > img {
+      float: left;
+      width: 680px;
+      height: 366px;
+      float: left;
+    }
+    .finnancel-header-content {
+      float: left;
+      height: 366px;
+      width: 502px;
+      padding-left: 18px;
+      .finnancel-header-content-top {
+        height: 173px;
+        border-bottom: 1px solid $border;
+        padding-top: 4px;
+        position: relative;
+        .finnancel-header-top-icon {
+          margin-top: 0;
+          height: 30px;
+          line-height: 30px;
+          font-size: 18px;
+          color: #ff7e00;
+          text-align: left;
+          vertical-align: middle;
+          > img {
+            vertical-align: top;
+            width: 20px;
+            height: 24px;
+          }
+        }
+        .finnancel-header-top-title {
+          font-size: 24px;
+          color: #333333;
+          text-align: left;
+          margin-top: 23px;
+
+        }
+        .finnancel-header-top-title:hover {
+          a {
+            color: #00a2c9;
+          }
+        }
+        .finnancel-header-top-detail {
+          font-size: 16px;
+          color: #666666;
+          margin-top: 16px;
+          text-align: left;
+          line-height: 24px;
+          > a {
+            font-size: inherit;
+            color: inherit;
+          }
+        }
+        .finnancel-header-top-detail:hover {
+          a {
+            color: #00a2c9;
+          }
+        }
+        .finnancel-header-more {
+          color: $primaryColor;
+          font-size: 16px;
+          position: absolute;
+          right: 0;
+          bottom: 20px;
+        }
+      }
+    }
+  }
+
+}
+
+.financel .finnancel-header .finnancel-header-content-bottom {
+
+  ul {
+    margin-top: 20px;
+    height: 183px;
+    width: 100%;
+    > li {
+      height: 25%;
+      text-align: left;
+      font-size: 18px;
+      width: 100%;
+      > span {
+        display: inline-block;
+        width: 4px;
+        height: 4px;
+        margin-right: 10px;
+        vertical-align: middle;
+        background-color: #c6c8cd;
+      }
+      > a {
+        color: #333333;
+      }
+    }
+    > li:hover {
+      a {
+        color: #00a2c9;
+      }
+    }
+  }
+}
+
+.financel .financel-second {
+  width: 1200px;
+  margin: 0 auto;
+  .financel-second-title {
+    height: 66px;
+    line-height: 66px;
+    text-align: left;
+    vertical-align: middle;
+    color: #333333;
+    font-size: 18px;
+    > span {
+      display: inline-block;
+      height: 16px;
+      width: 4px;
+      background-color: #00a2c9;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+  }
+}
+
+.financel {
+  .financel-second-pannel {
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+    height: 380px;
+    .financel-second-top {
+      height: 130px;
+      width: 600px;
+      > img {
+        float: left;
+        height: 130px;
+        width: 208px;
+      }
+      .financel-second-top-content {
+        float: left;
+        display: inline-block;
+        height: 130px;
+        width: 354px;
+        margin-left: 20px;
+        position: relative;
+        .financel-second-top-cotent-t {
+          text-align: left;
+          font-size: 18px;
+          color: #333333;
+          margin-top: 0px;
+        }
+        .financel-second-top-content-detail {
+          font-size: 16px;
+          color: #666666;
+          text-align: left;
+          margin-top: 11px;
+          line-height: 22px;
+          > a {
+            font-size: inherit;
+            color: inherit;
+          }
+        }
+        .second-into {
+          color: #00a2c9;
+          position: absolute;
+          right: 0px;
+          bottom: 0px;
+        }
+      }
+
+    }
+    .financel-second-bottom {
+      width: 600px;
+      text-align: left;
+      height: 160px;
+      ul {
+        margin-top: 24px;
+        width: 600px;
+        li {
+          color: #c7c6cc;
+          list-style: disc;
+          margin-left: 16px;
+          margin-bottom: 20px;
+          > a {
+            font-size: 16px;
+            color: #333333;
+          }
+          > a:hover {
+            color: #00a2c9;
+          }
+        }
+      }
+    }
+  }
+  .financel-second-pannel-l{
+    width: 620px;
+  }
+  .financel-second-pannel-r{
+    width: 580px;
+  }
+
+}
+
+.financel .financel-bottom-imgs {
+  clear: both;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding-bottom: 80px;
+  .financel-bottom-title {
+    height: 66px;
+    line-height: 66px;
+    text-align: left;
+    vertical-align: middle;
+    color: #333333;
+    font-size: 18px;
+    width: 100%;
+    > span {
+      display: inline-block;
+      height: 16px;
+      width: 4px;
+      background-color: #79bf6d;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+  }
+  .financel-bottom-imgs-li {
+
+    > ul {
+      margin-top: 0px;
+      width: 1200px;
+      text-align: center;
+      padding: 0px;
+      > li:hover {
+        box-shadow: 0px 0px 15px #d7d7d7;
+        cursor: pointer;
+      }
+      > li:hover .financel-bottom-li-title > a {
+        color: #00abd2;
+      }
+      > li {
+        padding: 24px 24px 24px;
+        display: inline-block;
+        width: 312px;
+        height: 408px;
+        background-color: #f8f8f8;
+        position: relative;
+        > img {
+
+        }
+        > a {
+          color: #00a2c9;
+          position: absolute;
+          right: 24px;
+          bottom: 30px;
+        }
+        .financel-bottom-li-title {
+          margin-top: 20px;
+          font-weight: bold;
+          line-height: 22px;
+          text-align: left;
+          cursor: pointer;
+          > a {
+            font-size: 18px;
+            color: #333333;
+          }
+          > a:hover {
+            color: #00a2c9;
+          }
+        }
+        .financel-bottom-li-detail {
+          margin-top: 12px;
+          line-height: 24px;
+          text-align: left;
+          > a {
+            color: #666666;
+            font-size: 16px;
+          }
+          > a:hover {
+            color: #00a2c9;
+          }
+        }
+
+      }
+      .financel-bottom-li-first {
+        float: left;
+      }
+      .financel-bottom-li-last {
+        float: right;
+      }
+    }
+
+  }
+}
+
